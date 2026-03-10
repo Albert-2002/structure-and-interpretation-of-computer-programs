@@ -32,5 +32,10 @@
 (display "numerator/denominator=")
 (display (exact->inexact (/ numerator denominator)))
 (newline)
+(define (square x) (* x x))
+(display "square of 5 = ")
+(display (square 5))
+
+(newline)
 (newline)
 (exit)
