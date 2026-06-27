@@ -2,4 +2,14 @@
 
 Structure and Interpretation of Computer Programs (SICP):
 
-Moriturus te saluto. I who am about to die salute you.
+The book teaches foundational and universal principles of programming and software design.
+
+_Moriturus te saluto._
+
+**To Run .scm files:**
+
+```bash
+mit-scheme --load "/path/to/file"
+```
+
+---
