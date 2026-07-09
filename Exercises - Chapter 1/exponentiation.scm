@@ -24,6 +24,7 @@
 (display "Exponentiation - Exponentiation by Squaring - Time Complexity: O(log n) - Space Complexity: O(log n):")
 (newline)
 (newline)
+; Note: remainder is a built-in function in Scheme that returns the remainder of division of two numbers.
 (define (even? n) (= (remainder n 2) 0))
 (define (square x) (* x x))
 (define (exp-es b n) 
